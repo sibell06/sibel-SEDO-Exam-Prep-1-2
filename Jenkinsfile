@@ -7,7 +7,7 @@ pipeline {
             when {
                 anyOf {
                     branch "main"
-                    branch "feature"
+                    branch "develop"
                 }
             }
             steps {
@@ -19,7 +19,7 @@ pipeline {
             when {
                 anyOf {
                     branch "main"
-                    branch "feature"
+                    branch "develop"
                 }
             }
             steps {
@@ -31,7 +31,7 @@ pipeline {
             when {
                 anyOf {
                     branch "main"
-                    branch "feature"
+                    branch "develop"
                 }
             }
             steps {
